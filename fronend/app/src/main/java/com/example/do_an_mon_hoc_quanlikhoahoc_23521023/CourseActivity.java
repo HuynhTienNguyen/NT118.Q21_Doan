@@ -1,6 +1,9 @@
 package com.example.do_an_mon_hoc_quanlikhoahoc_23521023;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
@@ -33,5 +36,11 @@ public class CourseActivity extends AppCompatActivity {
                         tab.setText(getString(R.string.tab_curriculum));
                     }
                 }).attach();
+
+        String name = getIntent().getStringExtra("course_name");
+        TextView tv = findViewById(R.id.txtCourseTitle);
+        tv.setText(name);
+
+
     }
 }

@@ -14,7 +14,7 @@
         android:layout_width="379dp"
         android:layout_height="254dp"
         android:layout_marginBottom="0dp"
-        android:src="@drawable/logo" />
+        android:src="@drawable/ic_learning_logo" />
 
     <TextView
         android:id="@+id/textTitle"

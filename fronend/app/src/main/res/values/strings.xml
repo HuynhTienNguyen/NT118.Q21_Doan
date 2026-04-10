@@ -57,4 +57,16 @@
 
     <string name="tab_intro">Giới thiệu</string>
     <string name="tab_curriculum">Giáo trình</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    -----
+    <string name="title_learning_course">Learning course</string>
+    <string name="list_title_courses">Danh sách khóa học</string>
+
+    <string name="hint_search_courses">Tìm kiếm khóa học...</string>
+
+    <string name="desc_menu">Mở menu điều hướng</string>
+    <string name="desc_logo">Logo ứng dụng</string>
+    <string name="desc_menu_icon">Icon Menu</string>
+    <string name="desc_book_icon">Icon Book</string>
 </resources>
